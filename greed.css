@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    padding: 12px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    border-radius: 9px;
+}
+
+.row {
+    display: flex;    
+    border: solid 1px;
+    border-radius: 3px;    
+}
+@media (min-width: 576px) {
+    .size {
+        border: solid 1PX greenyellow;
+        width: 100%;
+    }    
+}
+
+@media (min-width: 768px) {
+    .size {
+        border: solid 1PX greenyellow;
+        width: 50%;
+    }
+}
+
+@media (min-width: 922px) {
+    .size {
+        border: solid 1PX greenyellow;
+        width: calc(100%/3);
+    }
+}
+
+
+
+
+
+
